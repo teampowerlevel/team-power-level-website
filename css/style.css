@@ -110,6 +110,10 @@ header .container {
   padding-top: 1rem;
 }
 
+.heroShotImage {
+  padding-top: 3rem;
+}
+
 /* .heroshotImage img {
   height: 1000px;
   width: 650px;
@@ -118,7 +122,7 @@ header .container {
 .logoHero {
   position: absolute;
   padding-right: 0px;
-  padding-top: 360px;
+  padding-top: 0.5rem;
 }
 
 /* writeup section */
@@ -132,7 +136,7 @@ header .container {
 }
 
 .firstSection {
-  padding-top: 6rem;
+  padding-top: 1rem;
 }
 
 .secondSection {
@@ -163,11 +167,11 @@ section {
   height: 100%;
 }
 
-.count-down {
+/* .count-down {
   display: flex;
   justify-content: center;
   padding-right: 2rem;
-}
+} */
 
 /* .countdown h1 {
   padding-left: 1.7rem;
@@ -285,9 +289,21 @@ section {
   .countdown p {
     font-size: 1rem;
   }
-  .heroshotImage {
-    height: 200px;
-    width: 500px;
+  
+  .heroShotImage img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .logoHero {
+    padding-top: 1.7rem;
+  }
+
+  .logoHero img {
+
+    height: 40px;
+    
   }
 
   .shownAssets img {
@@ -311,12 +327,11 @@ section {
   .countdown {
     display: flex;
     justify-content: center;
-    max-width: 90%;
   }
 
-  .count-down {
+  /* .count-down {
     padding-left: 4rem;
-  }
+  } */
 
   .nextDrop {
     text-align: center;
