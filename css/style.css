@@ -1,0 +1,326 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Poppins&display=swap');
+
+/* GLOBAL STYLES */
+
+:root {
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Otomanopee One', serif;
+  --font-code: 'Roboto', monospace;
+  --bg-color: #1B1B1B;
+  --font-color: #ffffff;
+  --btn-bg-color: #ffffff;
+  --accent-color: #9B27B0;
+  --header-shadow: #000 0px 0px 5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  color: var(--font-color);
+  font-family: var(--font-primary);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1033px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.oto {
+  font-family: var(--font-secondary);
+}
+
+/* HEADER */
+
+header {
+  box-shadow: var(--header-shadow);
+  border-bottom: black 2px solid;
+  padding-top: 2rem;
+}
+
+header .container {
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.openSeaIcon {
+  padding-top: 1rem;
+}
+
+/* BUTTONS */
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--btn-bg-color);
+  color: var(--accent-color);
+  font-family: var(--font-secondary);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  box-shadow: 4px 4px 0 0 var(--accent-color);
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+}
+.btn:hover {
+  box-shadow: none;
+}
+
+.wallet-btn {
+  border-radius: 5rem;
+  margin-left: 2rem;
+  border-color: transparent;
+}
+
+.hero-btn {
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 1.5rem 3rem;
+}
+
+/* hero section */
+
+.heroShot {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+/* .heroshotImage img {
+  height: 1000px;
+  width: 650px;
+} */
+
+.logoHero {
+  position: absolute;
+  padding-right: 0px;
+  padding-top: 360px;
+}
+
+/* writeup section */
+
+.roadmap h2 {
+  padding-top: 1rem;
+}
+
+.roadmapContent {
+  font-size: 18px;
+}
+
+.firstSection {
+  padding-top: 6rem;
+}
+
+.secondSection {
+  padding-top: 6rem;
+}
+
+.breedingProgram {
+  padding-top: 6rem;
+}
+
+.battleApp {
+  padding-top: 2rem;
+}
+
+
+/* COUNTDOWN SECTION */
+
+section {
+  flex: 1 1 auto;
+}
+
+.countdown {
+  padding-top: 6rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.count-down {
+  display: flex;
+  justify-content: center;
+  padding-right: 2rem;
+}
+
+/* .countdown h1 {
+  padding-left: 1.7rem;
+} */
+
+.countdown ul {
+  display: flex;
+  gap: 2rem
+}
+.countdown .clock-item {
+  list-style: none;
+  width: 70px;
+  height: auto;
+}
+.countdown .clock-item .count-number {
+  background: var(--accent-color);
+  color: var(--font-color);
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--font-secondary);
+  padding: 1rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  border-radius: 4px 4px 0 0;
+}
+.countdown .clock-item .count-text {
+  background: var(--btn-bg-color);
+  font-family: var(--font-secondary);
+  font-size: 1.1rem;
+  color: var(--bg-color);
+  padding: 0.5rem 0.7rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  border-radius: 0 0 4px 4px;
+}
+
+.countdown h1 {
+  text-shadow: 2px 2px 0 var(--accent-color);
+  font-style: italic;
+  margin: 2rem 0;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.countdown p {
+  font-size: 1.1rem;
+  font-family: var(--font-secondary);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.nextDrop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialmedia {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.socialmediaicons {
+  display: flex;
+  justify-content: center;
+}
+
+.twitter {
+  padding-right: 0.5rem;
+}
+
+.instagram {
+  padding-left: 0.5rem;
+}
+
+.team {
+  padding-top: 6rem;
+}
+
+.teamcontainer h1 {
+  padding-bottom: 1rem;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+/* OWNER STYLES */
+
+.owner-status {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .menu {
+    gap: 1rem;
+  }
+  .wallet-btn {
+    margin-left: 0;
+    padding: 1rem;
+    max-width: 8rem;
+  }
+
+  .countdown p {
+    font-size: 1rem;
+  }
+  .heroshotImage {
+    height: 200px;
+    width: 500px;
+  }
+
+  .shownAssets img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .breedingProgram img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .battleApp img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .countdown {
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+  }
+
+  .count-down {
+    padding-left: 4rem;
+  }
+
+  .nextDrop {
+    text-align: center;
+  }
+
+}
+ 
