@@ -110,19 +110,10 @@ header .container {
   padding-top: 1rem;
 }
 
-.heroShotImage {
-  padding-top: 3rem;
-}
-
-/* .heroshotImage img {
-  height: 1000px;
-  width: 650px;
-} */
-
 .logoHero {
   position: absolute;
   padding-right: 0px;
-  padding-top: 25.5rem;
+  padding-top: 22.5rem;
 }
 
 /* writeup section */
@@ -137,6 +128,9 @@ header .container {
 
 .firstSection {
   padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .secondSection {
@@ -144,11 +138,12 @@ header .container {
 }
 
 .breedingProgram {
-  padding-top: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .battleApp {
-  padding-top: 2rem;
+  padding-top: 0.6rem;
 }
 
 
@@ -167,20 +162,15 @@ section {
   height: 100%;
 }
 
-/* .count-down {
-  display: flex;
-  justify-content: center;
+.count-down {
   padding-right: 2rem;
-} */
-
-/* .countdown h1 {
-  padding-left: 1.7rem;
-} */
+}
 
 .countdown ul {
   display: flex;
   gap: 1rem;
 }
+
 .countdown .clock-item {
   list-style: none;
   width: 70px;
@@ -318,9 +308,10 @@ section {
     justify-content: center;
   }
 
-  /* .count-down {
-    padding-left: 4rem;
-  } */
+  .count-down {
+    display: flex;
+    justify-content: center;
+  }
 
   .nextDrop {
     text-align: center;
