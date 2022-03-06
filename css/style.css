@@ -116,6 +116,18 @@ header .container {
   padding-top: 22.5rem;
 }
 
+.mintbtn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.mintmsg {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6rem;
+}
+
 /* writeup section */
 
 .roadmap h2 {
