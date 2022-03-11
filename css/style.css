@@ -125,7 +125,13 @@ header .container {
 .mintmsg {
   display: flex;
   justify-content: center;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
+}
+
+.videoPlayer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
 }
 
 /* writeup section */
